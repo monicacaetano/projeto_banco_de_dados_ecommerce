@@ -3,4 +3,4 @@ Desafio de projeto do Bootcamp "Geração Tech Unimed-BH - Ciência de Dados", e
 
 ## Objetivo: 
 
-- Refinar um modelo lógico de E-commerce acrescentando informações relevantes utilizar o MySQL Workbench.
+- Refinar um modelo lógico de E-commerce utilizando o MySQL Workbench para acrescentar informações relevantes.
