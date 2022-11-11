@@ -1,35 +1,27 @@
-# Refinando um projeto de banco de dados para o contexto de um E-commerce
-Desafio de projeto do Bootcamp "Geração Tech Unimed-BH - Ciência de Dados", em parceria com a Digital Innovation One. Este projeto foi desenvolvido utilizando MySQL Workbenc.
+# Modelando um projeto conceitual/lógico de bancos de dados para um cenário de E-commerce
 
-## Objetivo
-Criar os modelos conceitual (entidade-relacionamento) e lógico (modelo relacional) que representem o contexto de um E-commerce.
+Desafio de projeto do Bootcamp "Geração Tech Unimed-BH - Ciência de Dados", em parceria com a Digital Innovation One.
 
-## Detalhamento do projeto:
+### **Objetivos:**
 
-### Entidades
-Cliente, Pedido, Pagamento, Cartão de Crédito, Produto, Estoque, Fornecedor, Vendedor Terceiro
+- Criar um Script SQL que esquematize um banco de dados;
+- Fazer a persistência de dados;
+- Criar queries SQL com as cláusulas:
+  - Recuperações simples com SELECT Statement
+  - Filtros com WHERE Statement
+  - Criar expressões para gerar atributos derivados
+  - Definir ordenações dos dados com ORDER BY
+  - Condições de filtros aos grupos – HAVING Statement
+  - Crie junções entre tabelas para fornecer uma perspectiva mais complexa dos dados
+-  Acrescentar ao modelo os seguintes pontos:
 
-### Cliente
-Pode fazer mais de um pedido;
-Pode ter CPF ou CNPJ.
+- Cliente PJ e PF – Uma conta pode ser PJ ou PF, mas não pode ter as duas informações;
+- Pagamento – Pode ter cadastrado mais de uma forma de pagamento;
+- Entrega – Possui status e código de rastreio;
 
-### Pedido
-Contém a descrição e o status do pedido (em andamento, em processamento, enviado, entregue).
+**Responde algumas perguntas por meio de queries SQL:**
 
-### Produto
-Descreve as características do produto.
-
-### Pagamento
-Especifica o tipo de pagamento.
-
-### Cartão de Crédito
-Contém as informações específicas de cada cartão.
-
-### Estoque
-Descreve a quantidade de produtos em estoque.
-
-### Fornecedor
-Armazena dados do fornecedor dos produtos.
-
-### Vendedor terceiro
-Armazena dados do fornecedor terceiro.
+- Quantos pedidos foram feitos por cada cliente?
+- Algum vendedor também é fornecedor?
+- Relação de produtos fornecedores e estoques;
+- Relação de nomes dos fornecedores e nomes dos produtos.
